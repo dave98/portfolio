@@ -16,12 +16,12 @@ const skills = [
             {
                 id: 1,
                 name: "HTML5",
-                description: "Alguna n",
+                description: "Siempre me gusto comparar el desarrrollo de las etiquetas HTML5 con la estructura narrativa de una novela. Mi escritor favorito H. Murakami me dio a entender que planificar contextos generales es más importante que simplemente poner divs de forma desconsiderada (Sin mencionar además que a Google no le gusta).",
                 progress: 90,
             },{
                 id: 2,
                 name: "CSS",
-                description: "Y como olvidarnos del entorno... Tener una buena estructura argumental es primordial, pero saber como desenvolver su ambiente es lo que te hace único. Una de las cosas que más aprecio de Murakami es el talento que tiene al momento de describir sus mundos... y puede que no sea la mejor analogía, pero considero que CSS es capaz de hacer lo mismo. No solo es decorar, es brindar identidad a tu entorno web.",
+                description: "Y como olvidarnos del entorno... Tener una buena estructura argumental es primordial, pero saber como desenvolver su ambiente es lo que te hace único. Otra de las cosas que más aprecio de Murakami es el talento que tiene al momento de describir sus mundos... y puede que no sea la mejor analogía, pero considero que CSS es capaz de hacer lo mismo. No solo es decorar, es brindar identidad a tu entorno web.",
                 progress: 85,
             },{
                 id: 3,
@@ -31,7 +31,7 @@ const skills = [
             },{
                 id: 4,
                 name: "ReactJs",
-                description: "Fue la puerta que me abrió al mundo FrontEnd. Es mi buen pastor en esta rama del desarrollo web y posiblemente el framework que más conozca. Con React no solo aprendí a diseñar un sitio web, sino a gestionar sus recursos de la manera más eficiente posible. Ya sea mediante el uso de contextos, memoization, hooks o reducers.",
+                description: "Fue la puerta que me abrió al mundo FrontEnd. Es mi guía en esta rama del desarrollo web y posiblemente el framework que más conozca. Con React no solo aprendí a diseñar un sitio web, sino a gestionar sus recursos de la manera más eficiente posible. Ya sea mediante el uso de contextos, memoization, hooks o reducers, el propósito al final es hacer la menor cantidad de renders posibles.",
                 progress: 90
             }
         ]
@@ -42,7 +42,7 @@ const skills = [
         technologies: [
             {
                 id: 5,
-                name: "Ruby",
+                name: "Rails",
                 description: "Construido sobre Ruby (otro lenguaje de programación al que también le tengo mucho aprecio) es un framework que llegué a dominar junto a mis compañeros en Codeable. Al inicio lo usaba bajo el modelo MVP y ponía toda la carga tanto del Front como del Back en el mismo servidor. La experiencia me dio a entender que no era la opción más viable y con el tiempo comprendí que un sistema REST Api sería el más adecuado... ya el Front se lo dejaría a mis pastor React (además de que aquí hacer UI/UX es un poco más complejo).",
                 progress: 75,
             },{
@@ -57,7 +57,7 @@ const skills = [
                 progress: 85,
             },{
                 id: 8,
-                name: "Python",
+                name: "Django",
                 description: "Por alguna razón utilizar este framework me hace sentir viejo... siempre que me pongo a diseñar los modelos para la base de datos percibo como varias canas se asentan en mi cabeza... es una sensación bastante peculiar. Es de los primeros frameworks para Backend que utilicé aunque no de los que más profundizé (Y lo digo a consciencia pues siendo el novato que era en ese entonces, pasé por alto muchas cosas).  Últimamente, he decidido retomarlo, aunque esta vez junto a Graphene a fin de observar cuán bien optimiza esta librería las queries.",
                 progress: 65,
             }

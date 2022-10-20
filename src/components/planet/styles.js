@@ -105,11 +105,15 @@ export const Satellite = styled.span(({size, orbitDistance, orbitTime, order, te
     animationIterationCount: "infinite",
     backgroundColor: colors.background.mainWhite,
     padding: "10px 10px",
-    transitionDuration: "0.3s",
+    transition: "all 0.5s",
     "svg": {
+        position: "absolute",
+        inset: "0%",
         height: "100%",
         width: "100%",
+        padding: "10px 10px",
         borderRadius: "50%",
+        transition: "all 0.2s",
     },
     ":hover": {
         boxShadow: "0px 0px 20px 5px rgba(255, 255, 255, 0.5)",
@@ -119,7 +123,7 @@ export const Satellite = styled.span(({size, orbitDistance, orbitTime, order, te
     },
     ":active": {
         "svg": {
-            transform: "scale(0.7)",
+            transform: "scale(0.8)",
         }
     }
 }))

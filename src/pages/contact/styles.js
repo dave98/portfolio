@@ -13,7 +13,7 @@ export const Container = styled.div({
     alignItems: "center",
 })
 
-export const ContactForm = styled.div({
+export const ContactForm = styled.form({
     position: "relative",
     display: "flex",
     flexDirection: "column",
@@ -23,7 +23,7 @@ export const ContactForm = styled.div({
     marginTop: 80,
     gap: 40,
     border: `1px solid ${colors.background.mainWhite}`,
-    padding: "40px 40px",
+    padding: "60px 40px",
     boxSizing: "content-box",
     zIndex: 10,
     backgroundColor: "transparent",

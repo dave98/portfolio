@@ -12,6 +12,9 @@ import RubyIcon from "./rubyIcon";
 import SequelizeIcon from "./sequelizeIcon";
 import VueIcon from "./vueIcon";
 import ReactNativeIcon from "./reactNativeIcon";
+import DjangoIcon from "./django";
+import Html5Icon from "./html5Icon";
+import CssIcon from "./cssIcon";
 
 export {
     JavascriptIcon, 
@@ -28,4 +31,7 @@ export {
     SequelizeIcon, 
     VueIcon,
     ReactNativeIcon,
+    DjangoIcon,
+    Html5Icon,
+    CssIcon,
 }

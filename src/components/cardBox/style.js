@@ -5,8 +5,11 @@ export const Container = styled.div(({height, rotationAxis}) => ({
     cursor: "pointer",
     height: height,
     opacity: 0.85,
+    transition: "all 1.5s",
+
     ":hover .content,  .axised": {
         transform: `rotate${rotationAxis}(0.5turn)`,
+
         ":before": {
             width: "40%",
             height: "40%",
@@ -25,6 +28,7 @@ export const Container = styled.div(({height, rotationAxis}) => ({
         },
 
         ".front .frontimage": {
+            transition: "all 1s",
             filter: "blur(6px)",
             opacity: 0.35,
         }
@@ -87,6 +91,7 @@ export const FrontImage = styled.div({
     width: "calc(100% - 5px)",
     height: "calc(100% - 5px)",
     transform: "translateZ(2rem)",
+    transition: "all 1s",
 
     "img": {
         position: "absolute",
@@ -109,6 +114,7 @@ export const Back = styled.div(({rotationAxis}) => ({
     flexDirection: "column",
     gap: "10%",
     zIndex: 10,
+    transition: "all .5s",
     ".title": {
         transform: "translateZ(3rem)",
     },

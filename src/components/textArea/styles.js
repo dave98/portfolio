@@ -9,6 +9,8 @@ export const Container = styled.textarea({
     backgroundColor: "transparent",
     border: `1px solid ${colors.background.mainWhite}`,
     resize: "none",
+    transitionProperty: "box-shadow background-color",
+    transitionDuration: "1s",
     ":focus": {
         backgroundColor: colors.background.mainBlack,
         boxShadow: `10px 10px 0px 0px ${colors.background.mainWhite}`

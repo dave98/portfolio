@@ -42,6 +42,7 @@ export const DavePodium = styled.div({
     position: "relative",
     height: "90%",
     width: "50%",
+
     ":hover": {
         ".inner-glass": {
             fill: "rgba(255, 255, 255, 0.2)"
@@ -83,7 +84,9 @@ export const PodiumContainer = styled.div({
     position: "absolute",
     top: "75%",
     left: "20%",
-    opacity: .9
+    opacity: .9,
+
+    
 })
 
 

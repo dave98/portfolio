@@ -48,6 +48,7 @@ export const SvgWindow = styled.svg({
     ".inner-glass": {
         stroke: "white",
         strokeWidth: 1,
-        fill: "rgba(255, 255, 255, 0.1)"
+        fill: "rgba(255, 255, 255, 0.1)",
+        transition: "all 1s",
     }
 })

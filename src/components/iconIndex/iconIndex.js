@@ -1,15 +1,15 @@
-import { AngularIcon, JavascriptIcon, MongodbIcon, NestIcon, NextjsIcon, NpmIcon, PostgresIcon, PythonIcon, RailsIcon, ReactIcon, ReactNativeIcon, RubyIcon, SequelizeIcon, VueIcon } from "../brandedIcons"
+import { AngularIcon, CssIcon, DjangoIcon, Html5Icon, JavascriptIcon, MongodbIcon, NestIcon, NextjsIcon, NpmIcon, PostgresIcon, PythonIcon, RailsIcon, ReactIcon, ReactNativeIcon, RubyIcon, SequelizeIcon, VueIcon } from "../brandedIcons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHtml5, faCss3 } from "@fortawesome/free-brands-svg-icons"
 
 export const Icons = {
     "html5": {
-        normal: <FontAwesomeIcon icon={faHtml5}/>,
-        filled: <FontAwesomeIcon icon={faHtml5} color={"#000"}/>,
+        normal: <Html5Icon/>,
+        filled: <Html5Icon filled="#000"/>,
     },
     "css": {
-        normal: <FontAwesomeIcon icon={faCss3}/>,
-        filled: <FontAwesomeIcon icon={faCss3} color="#000"/>,
+        normal: <CssIcon/>,
+        filled: <CssIcon filled="#000"/>,
     },
     "reactjs": {
         normal: <ReactIcon/>,
@@ -55,6 +55,10 @@ export const Icons = {
     "python": {
         normal: <PythonIcon/>,
         filled: <PythonIcon filled="#000"/>,
+    },
+    "django": {
+        normal: <DjangoIcon/>,
+        filled: <DjangoIcon filled="#000"/>,
     },
     "rails":{
         normal: <RailsIcon/>,

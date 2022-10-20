@@ -6,6 +6,7 @@ export default function ModernButton({
     onClick,
     textTransform,
     transparent,
+    type = "button"
 }) {
     return (
         <Container
@@ -15,6 +16,8 @@ export default function ModernButton({
                 onClick={onClick}
                 textTransform={textTransform}
                 transparent={transparent}
+                type={type}
+                size={size}
             >
                 {children}
             </ButtonDisplayer>
