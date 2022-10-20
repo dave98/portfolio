@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Global } from '@emotion/react';
+import { resetter, global } from './styles/global';
+import { GlobalProvider } from './contexts/global-context';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Fragment>
+        <Global styles={resetter}/>
+        <Global styles={global}/>
+        <BrowserRouter>
+            <GlobalProvider>
+                <App />
+            </GlobalProvider>
+        </BrowserRouter>
+    </Fragment>
 );
 
 // If you want to start measuring performance in your app, pass a function

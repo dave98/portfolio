@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "@emotion/styled";
+import Navbar from "./components/navbar";
+import Main from "./pages/main";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+    AOS.refresh();
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainWrapper>
+      <Navbar/>    
+      <Main/>
+    </MainWrapper>
   );
 }
+
+const MainWrapper = styled.div({
+    position: "relative",
+    width: "100vw",
+    minWidth: "100vw" ,
+    maxWidth: "100vw",
+    height: "100vh",
+    minHeight: "100vh", 
+})
 
 export default App;
