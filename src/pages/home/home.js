@@ -50,7 +50,7 @@ export default function Home(){
                     >
                         Hey hola, soy Dave. Entusiasta del Frontend y apasionado del Backend.<br/>
                         Soy de aquellos que exageran en la concentración, capaz de resolver cualquier problema y sin temor a lanzarse por nuevas tecnologías. <br/>
-                        Si bien me considero un desarrollador de amplio espectro no tengo problemas con centrarme en solo un aspecto, tanto si es exclusivamente en Front como en Back.
+                        Si bien me considero un desarrollador de amplio espectro no tengo problemas con centrarme en solo un aspecto, tanto si es exclusivamente en FrontEnd como en Backend.
                     </Text>
                 </Presentation>
                 

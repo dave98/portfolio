@@ -73,13 +73,11 @@ export default function About() {
                         weight={300}
                         letterSpacing={1}
                     >
-                        Hey hola, soy Dave. Entusiasta del Frontend y apasionado del Backend.<br/>
-                        Soy de aquellos que exageran en la concentración, capaz de resolver cualquier problema y sin temor a lanzarse por nuevas tecnologías. <br/>
-                        Si bien me considero un desarrollador de amplio espectro no tengo problemas con centrarme en solo un aspecto, tanto si es exclusivamente en Front como en Back.
+                        Como decirlo... más que un simple portafolio, puedes considerar este lugar como mi carta de presentación hacia ti. <br/><br/>
+                        Soy Dave, un desarrollador FullStack de Perú. Quizá lo mencioné en la sección anterior pero siempre viene destacar nuestas habilidades. Me considero una persona muy centrada, totalmente agnóstica en cuanto a tecnologías y bastante curiosa en general. <br/><br/>
+                        Me siento cómodo trabajando en entornos de desarrollo ágil  y metas centradas a objetivos.
+
                     </Text>
-                    <Button
-                        buttonType={"line"}
-                    >More about me ⇨</Button>
                     <Corner horizontal="right" vertical="bottom"/>
                 </TextBox>
 

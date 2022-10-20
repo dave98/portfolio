@@ -1,6 +1,6 @@
 import { Container} from "./style";
 import { useGlobalContext } from "../../contexts/global-context";
-import {Routes, Route} from "react-router-dom"
+import {Routes, Route, Navigate} from "react-router-dom"
 import Home from "../home/home";
 import About from "../about";
 import Service from "../service";
@@ -37,11 +37,12 @@ export default function Main(){
                 width={width}
             />
             <Routes>
-                <Route path="/home" element={<Home/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="/skills" element={<Service/>}/>
-                <Route path="/projects" element={<Projects/>}/>
-                <Route path="/contact" element={<Contact/>}/>
+                <Route exact path="/" element={<Navigate to={"home"}/>}/>
+                <Route  path="/home" element={<Home/>}/>
+                <Route  path="/about" element={<About/>}/>
+                <Route  path="/skills" element={<Service/>}/>
+                <Route  path="/projects" element={<Projects/>}/>
+                <Route  path="/contact" element={<Contact/>}/>
             </Routes>
         </Container>
  )
